@@ -17,7 +17,7 @@ html, body {
 html {
   font-size: 15px;
   background-image: url(IMAGENES/fondo.jpg);
-  background-color:transparent;
+  background-color: transparent;
 }
 
 body {
@@ -27,7 +27,6 @@ body {
 
 }
 
-/* || typography */
 
 h1, h2, h3 {
   font-family: 'Cinzel Decorative', cursive;
@@ -56,8 +55,6 @@ p, li {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-
-/* || header layout */
 
 header {
   margin-bottom: 10px;
@@ -122,8 +119,6 @@ main nav span, main nav a, header nav a, header nav span {
   color: black;
 
 }
-
-/* || main layout */
 
 main {
   display: flex;
@@ -322,21 +317,21 @@ h3 {
   display: flex;
   width: 100%;
   flex: 0 0 100px;
-  float:left;
+  float: left;
   text-align: center;
 }
 
-.parrafon{
-  display:flex;
-flex-direction:row-reverse;
-border: 5px solid;
-outline:10px yellow;
+.parrafon {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 5px solid;
+  outline: 10px yellow;
 
 }
 
 .parrafon1 {
-  background-color:rgba(131, 18, 97, 0.884);
-  }
+  background-color: rgba(131, 18, 97, 0.884);
+}
 }
 
 .parrafon2 {
@@ -348,33 +343,33 @@ outline:10px yellow;
 }
 
 
-.euroliga1{
+.euroliga1 {
   background-color: rgb(255, 238, 0);
 
 }
 
-.euroliga2{
+.euroliga2 {
   background-color: rgb(90, 199, 17);
 
 }
 
-.euroliga{
-display:flex;
-justify-content:center;
-border:5px solid;
+.euroliga {
+  display: flex;
+  justify-content: center;
+  border: 5px solid;
 }
 
-.noticias1{
-border: 5px solid;
-outline:10px yellow;
-background-color: rgb(230, 17, 17);
+.noticias1 {
+  border: 5px solid;
+  outline: 10px yellow;
+  background-color: rgb(230, 17, 17);
 
 }
 
-.noticias2{
-border: 5px solid;
-outline:10px yellow;
-background-color: rgb(14, 111, 202);
+.noticias2 {
+  border: 5px solid;
+  outline: 10px yellow;
+  background-color: rgb(14, 111, 202);
 
 }
 
@@ -382,14 +377,21 @@ background-color: rgb(14, 111, 202);
   display: flex;
   width: 100%;
   flex: 0 0 100px;
-  float:left;
+  float: left;
   text-align: center;
 }
 
-.foto3{
+.foto3 {
   display: flex;
   width: 100%;
   flex: 0 0 100px;
-  float:left;
+  float: left;
   text-align: center;
+}
+
+.iconos {
+display:flex;
+text-align:center;
+justify-content:center;
+flex-direction:column;
 }
