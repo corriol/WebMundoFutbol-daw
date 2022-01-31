@@ -16,7 +16,8 @@ html, body {
 
 html {
   font-size: 15px;
-  background-color: lightblue;
+  background-image: url(IMAGENES/fondo.jpg);
+  background-color:transparent;
 }
 
 body {
@@ -229,7 +230,7 @@ img {
 .foto1 {
   display: flex;
   width: 100%;
-  flex: 0 0 500px;
+  flex: 0 0 490px;
   text-align: justify;
 }
 
@@ -319,8 +320,10 @@ h3 {
 
 .nba1 {
   display: flex;
-  width: 200px;
-  max-width:100%;
+  width: 100%;
+  flex: 0 0 100px;
+  float:left;
+  text-align: center;
 }
 
 .parrafon{
@@ -361,4 +364,32 @@ justify-content:center;
 border:5px solid;
 }
 
+.noticias1{
+border: 5px solid;
+outline:10px yellow;
+background-color: rgb(230, 17, 17);
 
+}
+
+.noticias2{
+border: 5px solid;
+outline:10px yellow;
+background-color: rgb(14, 111, 202);
+
+}
+
+.euroligafoto {
+  display: flex;
+  width: 100%;
+  flex: 0 0 100px;
+  float:left;
+  text-align: center;
+}
+
+.foto3{
+  display: flex;
+  width: 100%;
+  flex: 0 0 100px;
+  float:left;
+  text-align: center;
+}
